@@ -134,6 +134,27 @@ iframe {
 	height: 415px;
 }
 
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #ccc
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
 /********** Header **********/
 
 	/********** Nav Bar **********/
